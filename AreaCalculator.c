@@ -13,7 +13,6 @@ void main()
         printf("\nSelect area to calculate: \n 1. Cube \n 2. Trapezium \n 3. Rhombus \n 4. Paralellogram");
         printf("\nPress 5 to exit.\n");
         scanf("%d", &i);
-
         if(i == 5){
             return;
         }
