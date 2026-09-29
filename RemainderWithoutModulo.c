@@ -16,6 +16,5 @@ void main()
     idiv = num1/num2;
 
     remainder = fdiv-idiv;
-
     printf("\nRemainder: %f", remainder);
 }
