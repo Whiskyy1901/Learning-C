@@ -2,14 +2,18 @@
 
 void main()
 {
-    int n,r, value = 1;
+    //Take input
+    int n,r;
+    long int value = 1;
     printf("Enter value of n: ");
     scanf("%d", &n);   
     printf("Enter value of r: ");
     scanf("%d", &r);
 
+    //Check  validity of n and r
     if(n>0 && n>=r && r>=0)
     {
+        //Calculate value of nPr
         if (r==0)
         {
             printf("Value of nPr: %d", n);
@@ -21,7 +25,7 @@ void main()
             {
                 value *= (n-i);
             }
-            printf("Value of nPr: %d", value);
+            printf("Value of nPr: %ld", value);
         }
     }
     else

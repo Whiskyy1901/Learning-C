@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-void main() {
+void main() 
+{
+    //Take input
     float costPrice, sellingPrice;
 
     printf("Enter Cost Price: ");
@@ -9,6 +11,7 @@ void main() {
     printf("Enter Selling Price: ");
     scanf("%f", &sellingPrice);
 
+    //Print result
     if (sellingPrice > costPrice) {
         printf("Profit = %.2f\n", sellingPrice - costPrice);
     } else if (costPrice > sellingPrice) {

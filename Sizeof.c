@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 void main() {
-    //Sizeof returns number of bytes assigned
-    //%zu is used for as format specifier for sizeof
+    //Sizeof returns number of bytes assigned.
+    //%zu is used for as format specifier for sizeof.
 
     printf("Sizeof char: ");
     printf("%zu\n", sizeof(char));

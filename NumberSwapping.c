@@ -27,6 +27,7 @@ void XORSwitch(int num1, int num2)
 
 void main()
 {
+    //Take input
     int num1,num2, third_variable;
     
     printf("\nEnter number 1: ");
